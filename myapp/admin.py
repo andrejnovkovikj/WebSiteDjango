@@ -3,7 +3,7 @@ from django.http.request import HttpRequest
 from .models import *
 # Register your models here.
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ("name", "type", "price")
+    list_display = ("name", "type","sex", "price")
 
     def has_add_permission(self, request, obj=None):
         if request.user.is_superuser:
