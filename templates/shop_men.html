@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+</head>
+  <style>
+    body {
+        background-color: rgb(123, 144, 238);
+    }
+   
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">HOME</a>
+        <div class="navbar-nav justify-content-center">
+            <a class="navbar-brand" href="/shop/">SHOP</a>
+            <a class="navbar-brand" href="#">ABOUT US</a>
+            <a class="navbar-brand" href="/login/">LOGIN</a>
+            <a class="navbar-brand" href="/register/">REGISTER</a>
+            <a class="navbar-brand" href="/shoppingCart/">CART</a>
+            <a class="nav-link" href="#">Logged in as : {{request.user}}</a>
+              <a class="nav-link" href="{% url 'logoutUser' %}">Logout</a>
+          </div>
+        </div>
+  </nav>
+  <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+  <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+  <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+  <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+  <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+
+        <div class="row justify-content-center">
+          <div class="col col-lg-2">
+            <h1><a class="nav-link active text-dark text-center " aria-current="page" href="#">MEN</a></h1>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+        
+        <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/tshirt">T-SHIRTS</a></h3>
+            </div>
+        </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+          <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/shirt">SHIRTS</a></h3>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+          <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/sweatshirt">SWEATSHIRTS</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+          <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/jeans">JEANS</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+          <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/pants">PANTS</a></h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+          <div class="row justify-content-center">
+            <div class="col col-lg-2">
+              <h3><a class="nav-link active text-light text-center " aria-current="page" href="/shop/male/accessories">ACCESSORIES</a></h3>
+            </div>
+          </div>
+    
+      
+                
+                
+      
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+      
+   
+</body>
+<footer>
+  <div class="container">
+  <div class="row justify-content-center">
+      <div class="col col-lg-2">
+      </div>
+      <div class="col col-lg-2">
+          <h5 class="text-dark text-center">Coral 9 © 2023</h5>
+      </div>
+      <div class="col col-lg-2">
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
